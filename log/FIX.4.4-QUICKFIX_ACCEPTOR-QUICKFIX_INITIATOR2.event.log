@@ -1,0 +1,7 @@
+20230406-08:35:13: Session FIX.4.4:QUICKFIX_ACCEPTOR->QUICKFIX_INITIATOR2 schedule is daily, 00:00:00-UTC - 23:00:00-UTC
+20230406-08:35:13: Created session: FIX.4.4:QUICKFIX_ACCEPTOR->QUICKFIX_INITIATOR2
+20230406-08:35:20: Accepting session FIX.4.4:QUICKFIX_ACCEPTOR->QUICKFIX_INITIATOR2 from /192.168.211.18:59283
+20230406-08:35:20: Acceptor heartbeat set to 30 seconds
+20230406-08:35:20: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20230406-08:35:20: Received logon
+20230406-08:35:20: Responding to Logon request
