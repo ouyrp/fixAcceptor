@@ -29,3 +29,12 @@
 20230413-08:48:32: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
 20230413-08:48:32: Received logon
 20230413-08:48:32: Responding to Logon request
+20230413-08:56:22: Disconnecting: Encountered END_OF_STREAM
+20230413-09:30:17: Session FIX.4.4:QUICKFIX_ACCEPTOR->QUICKFIX_INITIATOR2 schedule is daily, 00:00:00-UTC - 23:00:00-UTC
+20230413-09:30:17: Created session: FIX.4.4:QUICKFIX_ACCEPTOR->QUICKFIX_INITIATOR2
+20230413-09:30:27: Accepting session FIX.4.4:QUICKFIX_ACCEPTOR->QUICKFIX_INITIATOR2 from /192.168.211.25:61005
+20230413-09:30:27: Acceptor heartbeat set to 30 seconds
+20230413-09:30:27: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20230413-09:30:27: Received logon
+20230413-09:30:27: Responding to Logon request
+20230413-09:33:04: Disconnecting: Encountered END_OF_STREAM
