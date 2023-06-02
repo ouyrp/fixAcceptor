@@ -19,7 +19,7 @@ public class FixAcceptor {
 
     public FixAcceptor() {
         try {
-            settings = new SessionSettings("src/main/resources/quickfix.properties");
+            settings = new SessionSettings("quickfix.properties");
         } catch (ConfigError configError) {
             System.out.println("Warning: config error!" + configError);
         }
@@ -35,7 +35,7 @@ public class FixAcceptor {
         }
     }
 
-    private void startServer() {
+    public void startServer() {
         try {
             acceptor.start();
         } catch (ConfigError configError) {
@@ -45,6 +45,20 @@ public class FixAcceptor {
 
     private void stopServer() {
         acceptor.stop();
+    }
+
+    public void init() {
+        try {
+            acceptor.start();
+        } catch (ConfigError configError) {
+            configError.printStackTrace();
+        }
+        // 启动一个Session，记得参考你的quickfix.properties设定
+        SessionID sessionID = new SessionID("FIX.4.4", "QUICKFIX_ACCEPTOR", "QUICKFIX_INITIATOR1");
+
+        while (true) {
+            // 等消息就行了
+        }
     }
 
     public static void main(String[] args) {
